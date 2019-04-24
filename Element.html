@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="app.js"></script>
+  
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body style="background-image:url('image.jpg');">
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <h1 style="font-size:5vw" class="navbar-brand"> TODOS</h1>
+    </div>
+
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">ENTER IN YOUR LIST</h2>
+  <input style="color:#C0C0C0;" type="text" id="myInput" placeholder="what need to be done?Click on the item for mark." autofocus>
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+</ul>
+
+<script>
+
+</script>
+<div class="col-sm-12 control-label" for="lg">
+  <ul class="pager">
+    <li><a >ALL</a></li>
+    <li><a >ACTIVE</a></li>
+    <li><a href="">CLEAR COMPLETED</a></li>
+    <li><a href="">COMPLETED[<span id="complete"></span>]</a>
+      
+  </ul>
+    </div>
+
+</body>
+</html>
